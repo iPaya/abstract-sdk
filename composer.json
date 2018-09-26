@@ -1,0 +1,21 @@
+{
+  "name": "ipaya/abstract-sdk",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~6"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "iPaya\\AbstractSdk\\": "src"
+    }
+  }
+}
